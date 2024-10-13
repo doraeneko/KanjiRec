@@ -6,7 +6,7 @@ A simple CNN-based model for recognizing Japanese kanji characters in screenshot
 ## Details
 
 The project consists of:
-- `cnn_training`: test data generation and training of CNN models in Keras
+- `cnn_training`: test data generation and training of CNN models in `Keras`
 - `KanjiRec`: a simple PyQt-based app for testing predictions.
 
 It contains functionality to recognize kanji characters from 30x30 grayscale images.  
@@ -35,7 +35,7 @@ Just run `app.py` to start it. Might take some time for keras to load.
 
 **Note**: Try to capture a tight frame around the kanji, as broader selections may reduce prediction accuracy.
 
-## TODOs:
+## TODOs
 - Extend recognition to multiple kanji characters
 - Recognize all kanji characters, hiragana, and katakana
 - Improve recognition accuracy
